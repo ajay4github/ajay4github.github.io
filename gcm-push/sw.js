@@ -17,7 +17,7 @@ self.addEventListener('push', function(event) {
   var icon = 'chrome-touch-icon-192x192.png';  
   var tag = 'simple-push-demo-notification-tag';
   var tm = new Date();
-  var dataURL = 'http://ajay4github.github.io/gcm-push/sample-data.json?t=' + tm.getTime();
+  var dataURL = 'https://ajay4github.github.io/gcm-push/sample-data.json?t=' + tm.getTime();
   event.waitUntil(
     //data
    fetch(dataURL)
