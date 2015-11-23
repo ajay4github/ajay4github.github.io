@@ -38,7 +38,7 @@ var enablePushSwitch = document.querySelector('.js-enable-push');
 				}	
 				// Check for a permission prompt issue
 				console.log('endpoint:', sub.endpoint);
-				document.location.href=sub.endpoint;
+				document.getElementById("myText").innerHTML = sub.endpoint;
 			});
 		});
     } 
