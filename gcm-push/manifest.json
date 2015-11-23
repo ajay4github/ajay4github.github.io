@@ -14,7 +14,7 @@
         "src": "https://ajay4github.github.io/gcm-push/images/touch/chrome-touch-icon-192x192.png",
         "sizes": "192x192"
       }],
-  "start_url": "https://ajay4github.github.io/gcm-push/",
+  "start_url": "https://ajay4github.github.io/gcm-push/index.html",
   "display": "standalone",
   "permissions": ["gcm", "storage", "notifications"],
   "gcm_sender_id": "923184815718"
