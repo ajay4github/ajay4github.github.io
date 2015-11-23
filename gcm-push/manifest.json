@@ -1,4 +1,21 @@
 {
-  "name": "Push Notifications codelab",
+  "name": "Simple Push Demo",
+  "short_name": "Push Demo",
+  "icons": [{
+        "src": "https://ajay4github.github.io/gcm-push/images/touch/icon-128x128.png",
+        "sizes": "128x128"
+      }, {
+        "src": "https://ajay4github.github.io/gcm-push/images/touch/apple-touch-icon.png",
+        "sizes": "152x152"
+      }, {
+        "src": "https://ajay4github.github.io/gcm-push/images/touch/ms-touch-icon-144x144-precomposed.png",
+        "sizes": "144x144"
+      }, {
+        "src": "https://ajay4github.github.io/gcm-push/images/touch/chrome-touch-icon-192x192.png",
+        "sizes": "192x192"
+      }],
+  "start_url": "https://ajay4github.github.io/gcm-push/",
+  "display": "standalone",
+  "permissions": ["gcm", "storage", "notifications"],
   "gcm_sender_id": "923184815718"
 }
